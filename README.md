@@ -3,6 +3,12 @@
 A lightweight foundation for your next webpack based frontend project.
 
 
+### Requirements
+
+- Materialize CSS
+- Node Ver 10.15.0
+
+
 ### Installation
 
 ```
@@ -26,5 +32,6 @@ npm run build
 * ES6 Support via [babel](https://babeljs.io/) (v7)
 * SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
 * Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
+* Materializecss via [materializecss](https://materializecss.com)
 
 When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.

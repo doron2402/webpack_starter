@@ -6,7 +6,46 @@
   <title>webpack starterkit</title>
 </head>
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+  <div class="container">
+    <div class="row">
+        <h1>webpack starter</h1>
+    </div>
+    <div class="row">
+      <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+    </div>
+
+
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Login</a>
+    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Login/Signup with Google</a>
+
+    <!-- Modal Structure -->
+    <!-- Login email/password -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Login</h4>
+        <form>
+          <input type="email" placeholder="Your Email" />
+          <input type="password" placeholder="Password" />
+          <input type="submit" value="Login">
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+      </div>
+    </div>
+    <!-- Signup/login with google  -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+          <h4>Signup With Google</h4>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">X</a>
+        </div>
+      </div>
+
+  </div>
+
+
 </body>
 </html>
